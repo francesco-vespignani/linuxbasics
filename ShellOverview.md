@@ -1,7 +1,7 @@
 # A fast and dirty booting route
 
 The shell commands run processes ... also bombs, 
-DO NOT RUN FOLLOWING COMMANDs !!!!
+*DO NOT RUN FOLLOWING COMMANDs !!!!*
 
 ~~~
 :(){ :|:& };:
