@@ -9,10 +9,10 @@ DO NOT RUN FOLLOWING COMMANDs !!!!
 
 See [https://en.wikipedia.org/wiki/Fork_bomb](https://en.wikipedia.org/wiki/Fork_bomb)
 
-~~~
-sudo rm -Rf /
+~~~bash
+rm -Rf /
 ~~~
 
-Deletes all the filesystem (sudo gives you superuser privileges)
+*Deletes all* the filesystem (if you add 'sudo' at the beginning gives you superuser privileges and the command is actually performed)
 
 
