@@ -1,7 +1,7 @@
 # A fast and dirty booting route
 
 The shell commands run processes ... also bombs, 
-*DO NOT RUN FOLLOWING COMMANDs !!!!*
+**DO NOT RUN FOLLOWING COMMANDs !!!!**
 
 ~~~bash
 :(){ :|:& };:
@@ -13,7 +13,7 @@ See [https://en.wikipedia.org/wiki/Fork_bomb](https://en.wikipedia.org/wiki/Fork
 rm -Rf /
 ~~~
 
-*Deletes all* the filesystem (if you add 'sudo' at the beginning gives you superuser privileges and the command is actually performed)
+**Deletes all** the filesystem (if you add 'sudo' at the beginning gives you superuser privileges and the command is actually performed)
 
 You can try this:
 
