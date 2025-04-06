@@ -21,13 +21,15 @@ Some words on free software by [Richard Stallman](https://en.wikipedia.org/wiki/
 - [free software](https://www.youtube.com/watch?v=Ag1AKIl_2GM&t)
 - [free software and education](https://www.gnu.org/education/education.html)
 
+More on Electronic Freedom @ [EFF](https://www.eff.org/)
+
 ## Installation:
 
-Stallman says [a beginner shouldn't istall linux](https://www.youtube.com/watch?v=umQL37AC_YM). You can ask our technicians, to try it  you can boot your laptop from a usb stick.
+Stallman says [a beginner shouldn't install linux](https://www.youtube.com/watch?v=umQL37AC_YM). You can ask friends or technicians.
 
-You can try Trisquel GNU/Linux, Debian, Mint, Ubuntu, Gentoo ...
+You can try by booting your laptop with  a USB stick with  Trisquel GNU/Linux, Debian, Mint, Ubuntu, Gentoo ...
 
-If you want just to play with bash and gnu coreutils in your Windows machine you may wan to install cygwin.
+If you want just to play with bash and gnu coreutils in your Windows machine you may wan to install [cygwin](https://www.cygwin.com/).
 
 ## The course
 
