@@ -1,8 +1,8 @@
-# BASH
+# bash
 
 [bash](https://www.gnu.org/software/bash/manual/)
 
-# GNU coreutils
+# GNU Coreutils
 
 [Gnu core utils](https://www.gnu.org/software/coreutils/) are the basic tools to inetract with files, folders and processes in linux/unix based OS.
 
@@ -14,11 +14,18 @@ Documentation is here:
 
 [grep manual](https://www.gnu.org/software/grep/manual/)
 
+Regular expressions are hard, playgrounds for regexp:
+- [regexone](https://regexone.com/)
+- [regexp101](https://regex101.com/)
+
+or google you regexp problem, ask your favorite AI assistant
+
 # SED
 
 [sed manual](https://www.gnu.org/software/sed/manual/sed.html)
 
-# ... and  more 
+# ... and  more (that what I know)
 
 [GAWK](https://www.gnu.org/software/gawk/manual/)
+
 [Perl](https://www.perl.org/)
