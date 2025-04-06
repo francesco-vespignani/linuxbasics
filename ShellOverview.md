@@ -23,31 +23,38 @@ shutdown -h now
 
 a "not so gentle" shutdown.
 
+###  first steps
+
 To see linux processes use ps:
 
 ~~~bash
-> ps
-> ps -f
-> ps -fA
+ps
+ps -f
+ps -fA
 ~~~
 
 Manual pages
 
 ~~~bash
-> man ps
+man ps
 ~~~
 
 To understand who you are and where you are: 
 
 ~~~bash
-> whoami
-> id
-> pwd
-> whereis bash
+whoami
+id
+pwd
+whereis bash
 ~~~
 
-*Exercise:* check the man of the above commands (within a man page display try to type "space" "arrow-up", b and h and ... q)
+*Exercises:* 
 
+- check the man of the above commands (within a man page display try to type "space" "arrow-up", b and h and ... q)
+- try some other whereis
 
+### Interacting with the shell
 
+- tab completion, history with arrow up
+- Ctrl-C, Ctrl-V
 
