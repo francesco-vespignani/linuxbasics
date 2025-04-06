@@ -36,8 +36,10 @@ If you want just to play with bash and gnu coreutils in your Windows machine you
 
 ## The course
 
-[interacting with the shell](ShellOverview.md)
+[Interacting with the shell](ShellOverview.md)
 
-[further tools](Tools.md)
+[Docs on GNU coreutils](GnuCoreutils.md)
+
+[Further tools](Tools.md)
 
 

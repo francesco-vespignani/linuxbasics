@@ -1,3 +1,7 @@
+# BASH
+
+[bash](https://www.gnu.org/software/bash/manual/)
+
 # GNU coreutils
 
 [Gnu core utils](https://www.gnu.org/software/coreutils/) are the basic tools to inetract with files, folders and processes in linux/unix based OS.
