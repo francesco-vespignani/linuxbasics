@@ -8,8 +8,11 @@ GNU Core Utils are the basic tools to interact with files, folders, and processe
 Skills you will learn during the course:
 
 1) interact with files and with the filesystem using a shell command line terminal.
+
 2) writing simple shell programs.
+
 3) creating and manipulating pdf, html, flac/wav, svg/png, mov files.
+
 4) manipulating text files by finding and replacing complex patterns and extracting specific pieces.
 
 ##  What is Linux 
