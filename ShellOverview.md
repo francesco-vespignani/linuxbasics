@@ -58,3 +58,32 @@ whereis bash
 - tab completion, history with arrow up
 - Ctrl-C, Ctrl-V
 
+###  nerdy jokes
+
+A nerd joke:
+
+~~~
+[ whereis my brain?
+~~~
+
+For other jokes and tricks see:\\
+
+[https://www.tecmint.com/funny-linux-commands/](https://www.tecmint.com/funny-linux-commands/])
+or google for "linux shell jokes and tricks"
+
+### going around
+
+*Exercises:* 
+
+go a bit around the filesystem with cd, pwd, ls
+
+Hint: use special path symbols and tab to move easier:
+
+. current folder
+
+.. partent folder
+
+~ home
+
+/ root directory
+
