@@ -400,3 +400,18 @@ Hint for matlab start it as:
 ~~~
 matlab -nosplash -nodesktop
 ~~~
+
+
+###  Some more formal introduction from linuxjourney
+
+[the shell](https://linuxjourney.com/lesson/the-shell)
+
+[file permissions](https://linuxjourney.com/lesson/file-permissions)
+
+[users and groups](https://linuxjourney.com/lesson/users-and-groups)
+
+[monitor processes](https://linuxjourney.com/lesson/monitor-processes-ps-command)
+
+[tracking processes](https://linuxjourney.com/lesson/tracking-processes-top)
+
+
