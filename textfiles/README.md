@@ -1,5 +1,5 @@
 
-#  Manipulating (relatively)  large text files
+##  Manipulating (relatively)  large text files
 
 The file freqlistITWAC.txt contains a list of frequencies of Italian words taken from the [itwac corpus](https://www.sketchengine.eu/itwac-italian-corpus/). To  give a look to the file use ``more''.
 
@@ -105,6 +105,8 @@ tac freqlistITWAC.txt | grep -E 'gh[ei]|ch[ei]' | grep 'NOUN$' | awk '($1>30 && 
 
 *Exercise*  select only words less than 10 char long and print numer of characters, then sort then alphabetically.
 
+See more suggestions on how to select on fileds with awk or sed [here](https://stackoverflow.com/questions/17001849/awk-partly-string-match-if-column-word-partly-matches)
+
 
 
 ##  Create many files
@@ -124,16 +126,15 @@ find data1/ | grep .txt
 find data1/ | grep .txt
 find data1/ | grep .txt | sed 's/data1\///' | sed 's/\/behav.txt//'
 
-```
-
 awk '{printf $0; printf "\t"; printf FILENAME; printf "\n"}' data1/S001/behav.txt 
 awk '{printf $0; printf "\t"; printf "pippo"; printf "\n"}' data1/S001/behav.txt
 
+```
 
 
 
 
-See more suggestions on how to select on fileds with awk or sed [here](https://stackoverflow.com/questions/17001849/awk-partly-string-match-if-column-word-partly-matches)
+
 
    
 
