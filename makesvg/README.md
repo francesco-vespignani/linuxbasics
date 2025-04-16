@@ -64,6 +64,7 @@ do
 done
 ```
 
+See [calc.sh](calc.sh) for a  partial solution
 
 **Exercise:** Use [ffmpeg](https://ffmpeg.org/) with the png files to create a movie with syllabes pictures presented at a fixed rate.
 
