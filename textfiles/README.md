@@ -95,7 +95,7 @@ Using grep and awk  to select rows
 
 cat freqlistITWAC.txt | grep -E 'gh[ei]|ch[ei]' | more
 
-cat freqlistITWAC.txt | grep -E 'gh[ei]|ch[ei]' | awk '($1>30 && $1<30000){print $0} |more
+cat freqlistITWAC.txt | grep -E 'gh[ei]|ch[ei]' | awk '($1>30 && $1<30000){print $0}' |more
 
 cat freqlistITWAC.txt | grep -E 'gh[ei]|ch[ei]' | grep 'NOUN$' | awk '($1>30 && $1<30000){print $0}' |more
 
@@ -107,6 +107,11 @@ tac freqlistITWAC.txt | grep -E 'gh[ei]|ch[ei]' | grep 'NOUN$' | awk '($1>30 && 
 
 See more suggestions on how to select on fileds with awk or sed [here](https://stackoverflow.com/questions/17001849/awk-partly-string-match-if-column-word-partly-matches)
 
+Get unique liste of Part Of Speech tags
+
+``` bash
+cut -f 3 freqlistITWAC.txt | sort | uniq | more
+```
 
 
 ##  Create many files
@@ -131,7 +136,13 @@ awk '{printf $0; printf "\t"; printf "pippo"; printf "\n"}' data1/S001/behav.txt
 
 ```
 
+A solution:
 
+``` bash
+
+find data1/ | grep .txt | xargs awk '{print $0, FILENAME}' | sed 's/data1\///' | sed 's/\/behav.txt//' > all.tsv
+
+```
 
 
 

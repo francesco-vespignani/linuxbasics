@@ -5,11 +5,11 @@ rm -Rf $datadir
 
 mkdir $datadir
 
-for d in $(seq 0 1 32); 
+for d in $(seq 1 1 32);  
 do
     printf "$datadir/S%03d" $d | xargs mkdir
-    count=1
     filename=$(printf "$datadir/S%03d/behav.txt" $d)
+    count=1
     while [ "$count" -le $MAXCOUNT ]      # Generate 10 ($MAXCOUNT) random integers.
     do
   	number=$RANDOM
@@ -19,5 +19,5 @@ do
     done
     
 done
-done
+
 

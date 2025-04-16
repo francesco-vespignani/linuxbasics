@@ -10,6 +10,10 @@ Documentation is here:
 
 [Coreutils manual](https://www.gnu.org/software/coreutils/manual/html_node/index.html)
 
+
+See  also  [TLDP](https://tldp.org/guides.html)
+
+
 # GREP and regexp
 
 [grep manual](https://www.gnu.org/software/grep/manual/)
